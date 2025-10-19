@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <!-- <a href="deliver.html">Delivery</a>-->
+
+  </head>
+  <body>
+    <nav class="navbar">
+  <div class="logo">
+    <img src="logo.png" alt="Success Enterprises Logo">
+    <span>Success Enterprises</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#market">Market</a></li>
+    <li><a href="#finance">Finance</a></li>
+    <li><a href="deliver.html">Delivery</a></li>
+    <li><a href="#requests">Client Requests</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<section class="home">
+  <!-- Welcome Note -->
+  <div class="welcome">
+    <h1>Welcome to Success Enterprises</h1>
+    <p>
+      Your one-stop platform for market access, financial empowerment, reliable delivery, and client-centered services.
+      We’re proud to serve communities across Uganda with technology that connects, simplifies, and uplifts.
+    </p>
+  </div>
+
+  <!-- Photo Slider -->
+  <div class="slider">
+    <div class="slides">
+      <img src="c.jpg" alt="Community Market">
+      <img src="d.JPG.jpg" alt="Delivery in Action">
+      <img src="f.jpg" alt="Financial Support Session">
+    </div>
+  </div>
+
+  <!-- Current Activities -->
+  <div class="activities">
+    <h2>Current Activities</h2>
+    <ul>
+      <li>📦 New delivery routes launched in Manafwa and Mbale</li>
+      <li>💰 Micro-loan applications open for local vendors</li>
+      <li>🛍️ Marketplace onboarding for fresh produce sellers</li>
+      <li>📣 Upcoming tech workshop: “Digital Tools for Local Business”</li>
+    </ul>
+  </div>
+</section>
+<section class="upcoming-events">
+  <h2>Upcoming Events</h2>
+  <p>Stay tuned for exciting updates, workshops, and community engagements hosted by Success Enterprises.</p>
+
+  <div class="event-list">
+    <!-- Event Block -->
+    <div class="event-item">
+      <img src="event1.jpg" alt="Digital Business Workshop">
+      <div class="event-details">
+        <h3>Digital Business Workshop</h3>
+        <p><strong>Date:</strong> November 5, 2025</p>
+        <p><strong>Location:</strong> Mbale Town Hall</p>
+        <p><strong>Description:</strong> Learn how to use digital tools to grow your local business.</p>
+      </div>
+    </div>
+
+    <!-- Add more events below -->
+    <!-- Example:
+    <div class="event-item">
+      <img src="event2.jpg" alt="Vendor Onboarding">
+      <div class="event-details">
+        <h3>New Vendor Onboarding</h3>
+        <p><strong>Date:</strong> November 12, 2025</p>
+        <p><strong>Location:</strong> Online via Zoom</p>
+        <p><strong>Description:</strong> Training session for new marketplace vendors.</p>
+      </div>
+    </div>
+    -->
+  </div>
+</section>
+<!--
+<footer class="site-footer">
+  <div class="footer-content">
+    <p class="appreciation">
+      Thank you for being part of Success Enterprises. Together, we’re building a smarter, stronger, and more connected community across Uganda.
+    </p>
+
+    <div class="social-media">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+      <a href="https://wa.me/your-number" target="_blank">WhatsApp</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </div>
+
+    <p class="copyright">
+      &copy; 2025 Success Enterprises. All rights reserved.
+    </p>
+  </div>
+</footer>
+-->
+<footer class="site-footer">
+  <div class="footer-content">
+    <p class="appreciation">
+      Thank you for being part of Success Enterprises. Together, we’re building a smarter, stronger, and more connected community across Uganda.
+    </p>
+
+    <div class="social-media">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://wa.me/your-number" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <p class="copyright">
+      &copy; 2025 Success Enterprises. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+
+  </body>
+</html>

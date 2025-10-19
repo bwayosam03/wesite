@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request a Pickup | Success Enterprises</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 25px;
+      background: #fff;
+      border: 2px solid #00c896;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #00c896;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #00c896;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #009f7a;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      border-top: 2px solid #00c896;
+    }
+
+    .social-media a {
+      margin: 0 10px;
+      color: #fff;
+      font-size: 1.5em;
+      text-decoration: none;
+    }
+
+    .social-media a:hover {
+      color: #00c896;
+    }
+  </style>
+</head>
+<body>
+
+ <div class="container">
+    <h1>Request a Pickup</h1>
+    <form action="/submit-pickup" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="location">Pickup Location:</label>
+      <input type="text" id="location" name="location" required>
+
+      <label for="items">Items for Pickup:</label>
+      <textarea id="items" name="items" rows="4" placeholder="e.g. 2 water dispensers, 3 laundry bags" required></textarea>
+
+      <label for="time">Preferred Pickup Time:</label>
+      <input type="datetime-local" id="time" name="time" required>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+<!--<h1>Request a Pickup</h1>
+<form method="POST">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Submit Request</button>
+</form>
+-->
+  <footer>
+    <p>Thank you for choosing Success Enterprises. We’re proud to serve our community with reliable delivery and logistics.</p>
+    <div class="social-media">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://wa.me/your-number" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>&copy; 2025 Success Enterprises. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
